@@ -43,7 +43,7 @@ namespace API.Controllers
 
  * Para ello lo que tenemos que hacer es poner public async, luego envolvemos la devolucion 
  * en una tarea (Task<>), ahora lo que tenemos que decirle a esa linea de codigo que tenemos que esperar
- * y eso se hace con la palabra clave awit, el metodo de debolucion tambien tiene que ser Asincrono
+ * y eso se hace con la palabra clave awit, el metodo de debolucion tambien tiene que ser Asincrono.
 */
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers(){
